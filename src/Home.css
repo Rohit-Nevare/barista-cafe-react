@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Corinthia:wght@400;700&display=swap');
+
+
+.carousel1
+{
+    height: 120vh;
+    background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url('../public/images/Background/bg_1.jpg');
+    background-position: center;
+}
+.carousel2
+{
+    height: 120vh;
+    background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url('../public/images/Background/bg_2.jpg');
+      background-position: center;
+}
+
+.carousel3
+{
+    height: 120vh;
+    background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5)),url('../public/images/Background/bg_3.jpg');
+      background-position: center;
+}
+
+
+.carousel-caption-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+.carousel-caption-center span
+{
+    font-family: "Corinthia", cursive;
+    font-size: 50px;
+    color: #c49b63;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: darkgray;
+    opacity: 0.5;
+    transition: opacity 0.3s;
+  }
+
+  .carousel-indicators .active {
+    opacity: 1;
+    background-color:white ; /* Change color as needed */
+  }
+.carousel-caption-center .btn1
+{
+    background: #c49b63;
+    border: 1px solid #c49b63;
+    color: #000;
+    padding: 12px 12px;
+}
+.carousel-caption-center .btn1:hover
+{
+    
+    background: transparent;
+    border: 1px solid #c49b63;
+    color: #c49b63;
+}
+.carousel-caption-center .btn2
+{
+    background: transparent;
+    border: 1px solid #c49b63;
+    color: #c49b63;
+    padding: 12px 12px;
+}
+.carousel-caption-center .btn2:hover
+{
+     background: #c49b63;
+    border: 1px solid #c49b63;
+    color: #000;
+    
+}
+.counters
+{
+    background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url('../public/images//Background/bg_2.jpg');
+    height: 100%;
+    cursor: pointer;
+    background-position: center;
+    background-attachment: fixed;
+}
+.counters p
+{
+    color: #fff;
+    font-size: larger;
+}
+.counters .counter,.add
+{
+    color: #c49b63;
+}
+.bi-cup-hot
+{
+    color: #c49b63;
+    font-size: 50px;
+    border: 1px solid #c49b63;
+    padding: 10px 20px;
+}
+.count:hover .bi-cup-hot{
+
+    background-color: #c49b63;
+    color: #000;
+}
+.footer
+{
+    background: #120f0f;
+}

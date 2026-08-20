@@ -1,0 +1,64 @@
+
+.contacts
+{
+  background-color: rgba(0,0,0,0.4);
+}
+.contact
+{
+  border: 1px solid #c49b63;
+}
+.contact input
+{
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #c49b63;
+}
+  input[type="text"]:focus{
+  border: none; 
+  background-color: transparent;
+  border-bottom: 1px solid #c49b63;
+}
+  input[type="date"]:focus{
+  border: none; 
+  background-color: transparent;
+  border-bottom: 1px solid #c49b63;
+}
+  input[type="time"]:focus{
+  border: none; 
+  background-color: transparent;
+  border-bottom: 1px solid #c49b63;
+  
+}
+.form-control::placeholder{
+  color:white;
+  opacity: 1;
+}
+
+.contact textarea
+{
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #c49b63;
+}
+ textarea:focus{
+  border: none;
+  background-color: transparent;
+  border-bottom: 1px solid #c49b63;
+
+}
+.contact button
+{
+  background-color: transparent;
+  color: #c49b63;
+  font-size: 20px;
+  border: 1px solid #c49b63;
+  padding: 10px;
+}
+.contact button:hover
+{
+  background-color: #c49b63;
+  color: white;
+  font-size: 20px;
+  border: 1px solid #c49b63;
+  
+}

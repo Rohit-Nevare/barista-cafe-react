@@ -1,0 +1,13 @@
+.shoptabs
+{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+@media(min-width:992px){
+    .shoptabs
+{
+    display: flex;
+    flex-wrap: nowrap;
+}
+}

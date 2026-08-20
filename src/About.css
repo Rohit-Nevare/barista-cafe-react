@@ -1,0 +1,29 @@
+.background
+  {
+    background-image: url('../public/images/Background/bg_4.jpg');
+    height: 100%;
+    background-attachment: fixed;
+  }
+  .aboutContent
+  {
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    background-attachment: fixed;
+  }
+ .aboutContent
+ {
+  position: relative;
+  right: 60px;
+  top: 40px;
+ }
+
+  .aboutContent span
+  {
+    font-family: "Corinthia", cursive;
+    font-size: 50px;
+    color: #c49b63;
+  }
+  .aboutContent p
+  {
+    font-size: 18px;
+  }
