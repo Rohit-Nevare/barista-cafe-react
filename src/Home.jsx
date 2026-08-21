@@ -20,7 +20,7 @@ const Home=(props)=>{
 
         <div id="carouselExampleIndicators" className="carousel slide" data-bs-ride="carousel" >
 
-          <div class="carousel-indicators">
+          <div className="carousel-indicators">
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" className="active"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"></button>
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"></button>
@@ -40,7 +40,7 @@ const Home=(props)=>{
 
             </div>
 
-            <div class="carousel-item carousel2">
+            <div className="carousel-item carousel2">
              
              <div class="carousel-caption-center">
                   <span>Welcome</span>
@@ -52,9 +52,9 @@ const Home=(props)=>{
 
             </div>
 
-            <div class="carousel-item carousel3">
+            <div className="carousel-item carousel3">
        
-             <div class="carousel-caption-center">
+             <div className="carousel-caption-center">
                   <span>Welcome</span>
                   <h2 className="display-5 fw-bold text-uppercase">The Best Coffee Testing Experience</h2>
                   <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos adipisci ducimus mollitia in iure enim magnam? Architecto a harum cumque.</p>
@@ -86,7 +86,7 @@ const Home=(props)=>{
         </section>
 
         {/* feature */}
-         <section className="pt-5 features" style={{ "background-color": "#c49b63"}}>
+         <section className="pt-5 features" style={{ "backgroundColor": "#c49b63"}}>
         <div className="container text-center p-4">
           <div className="row ">
             {
@@ -249,18 +249,18 @@ const Home=(props)=>{
           </div>
 
           <div className="container">
-            <div class="row">
-            <div class="col-12 products-tab mx-auto">
-                <ul class="nav nav-tabs flex-row ">
-                    <li class="nav-item"><a data-bs-toggle="tab" href="#home" class="nav-link active">Toast</a></li>
-                    <li class="nav-item"><a data-bs-toggle="tab" href="#about" class="nav-link">Pizza</a></li>
-                    <li class="nav-item"><button data-bs-toggle="tab" data-bs-target="#education"
-                            class="nav-link">Desserts</button></li>
+            <div className="row">
+            <div className="col-12 products-tab mx-auto">
+                <ul className="nav nav-tabs flex-row ">
+                    <li className="nav-item"><a data-bs-toggle="tab" href="#home" class="nav-link active">Toast</a></li>
+                    <li className="nav-item"><a data-bs-toggle="tab" href="#about" class="nav-link">Pizza</a></li>
+                    <li className="nav-item"><button data-bs-toggle="tab" data-bs-target="#education"
+                            className="nav-link">Desserts</button></li>
                 </ul>
             </div>
-            <div class="col-12 ms-auto text-center pt-5">
-                <div class="tab-content" id="myContent">
-                    <div class="tab-pane fade show active" id="home">
+            <div className="col-12 ms-auto text-center pt-5">
+                <div className="tab-content" id="myContent">
+                    <div className="tab-pane fade show active" id="home">
                         <div className="container zoom">
                           <div className="row">
                               {
@@ -285,7 +285,7 @@ const Home=(props)=>{
                           </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="about">
+                    <div className="tab-pane fade" id="about">
                         <div className="container zoom">
                           <div className="row">
                               {
@@ -310,7 +310,7 @@ const Home=(props)=>{
                           </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="education">
+                    <div className="tab-pane fade" id="education">
                         <div className="container zoom">
                           <div className="row">
                               {
@@ -436,16 +436,16 @@ const Home=(props)=>{
                         <input type="text" className="form-control "  placeholder="Last Name"/>
                         </div>
                         <div className="col-md-4 pt-4 text-light">
-                        <input type="date" class="form-control text-light " />
+                        <input type="date" className="form-control text-light " />
                         </div>
                         <div className="col-md-4 pt-4 ">
-                        <input type="time" class="form-control text-light "/>
+                        <input type="time" className="form-control text-light "/>
                         </div>
                         <div className="col-md-4 pt-4">
                         <input type="text" className="form-control text-light "  placeholder="Phone"/>
                         </div>
                         <div className="col-lg-12 pt-4">
-                         <textarea  className="form-control text-light " rows="5">Message</textarea>
+<textarea defaultValue="..." />
                         </div>
                         <div className="text-center pt-5">
                         <button type="button" className="">{props.conbtn}</button>
@@ -475,7 +475,7 @@ const Home=(props)=>{
                                {
                                     props.footeri.map(function(item){
                                         return(
-                                            <i class={item.imagei}></i>
+                                            <i className={item.imagei}></i>
                                         )
                                     })
                                }
