@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { Link } from "react-router-dom";
 
 const Wrapper=styled.section`
-  background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url('../public/images/Background/bg_1.jpg');
+  background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url('/images/Background/bg_1.jpg');
   height: 100%;
   background-attachment: fixed;
 `
@@ -84,7 +84,7 @@ const About=(props)=>{
             </div>
             <div className="col-12 col-md-6 col-lg text-center py-5 count">
                 <div >
-              <i class="bi bi-cup-hot "></i>
+              <i className="bi bi-cup-hot "></i>
                 <h2 className="pt-3">
                     <span className="counter"> 900 </span>
                     <span className="add">+</span>
@@ -145,7 +145,7 @@ const About=(props)=>{
                         return (
                             <div className="col-12 col-md-6 col-lg-3">
                                
-                              <div className="text-light p-4" style={{"background-color": "#c49b63"}}>
+                              <div className="text-light p-4" style={{"backgroundColor": "#c49b63"}}>
                                 <p className="text-start p-3">"{item.comment}"</p>
                                 <div className="d-flex text-start gap-3 pt-4">
                                   <img src={item.testiimg} alt="" height="60px" width="60px" className="rounded-circle"/>
@@ -180,7 +180,7 @@ const About=(props)=>{
                                {
                                     props.footeri.map(function(item){
                                         return(
-                                            <i class={item.imagei}></i>
+                                            <i className={item.imagei}></i>
                                         )
                                     })
                                }
@@ -199,8 +199,8 @@ const About=(props)=>{
                                         </div>
                                          <div>
                                             <p className="text-light">{fcon.footerpara}</p>
-                                            <span className="text-secondary"><i class="bi bi-calendar"></i>{fcon.footerdate}</span>
-                                            <span className="text-secondary ms-1"> <i class="bi bi-person-fill"></i>{fcon.footerspan}</span>
+                                            <span className="text-secondary"><i className="bi bi-calendar"></i>{fcon.footerdate}</span>
+                                            <span className="text-secondary ms-1"> <i className="bi bi-person-fill"></i>{fcon.footerspan}</span>
                                         </div>
                                         </div>
                                     )
@@ -232,7 +232,7 @@ const About=(props)=>{
                                     return(
                                         <div className="d-flex justify-content-start align-items-center gap-2">
                                             <div>
-                                                <p className="text-light"><i class={fli.footericon}></i></p>
+                                                <p className="text-light"><i className={fli.footericon}></i></p>
                                             </div>
                                             <div>
                                                 <p className="text-secondary">{fli.footerpara}</p>

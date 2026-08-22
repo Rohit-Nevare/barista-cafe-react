@@ -114,18 +114,18 @@ const Menu=(props)=>{
           </div>
 
           <div className="container">
-            <div class="row">
-            <div class="col-12 products-tab mx-auto">
-                <ul class="nav nav-tabs flex-row ">
-                    <li class="nav-item"><a data-bs-toggle="tab" href="#home" class="nav-link active">Main </a></li>
-                    <li class="nav-item"><a data-bs-toggle="tab" href="#about" class="nav-link">Drinks</a></li>
-                    <li class="nav-item"><button data-bs-toggle="tab" data-bs-target="#education"
-                            class="nav-link">Desserts</button></li>
+            <div className="row">
+            <div className="col-12 products-tab mx-auto">
+                <ul className="nav nav-tabs flex-row ">
+                    <li className="nav-item"><a data-bs-toggle="tab" href="#home" className="nav-link active">Main </a></li>
+                    <li className="nav-item"><a data-bs-toggle="tab" href="#about" className="nav-link">Drinks</a></li>
+                    <li className="nav-item"><button data-bs-toggle="tab" data-bs-target="#education"
+                            className="nav-link">Desserts</button></li>
                 </ul>
             </div>
-            <div class="col-12 ms-auto text-center pt-5">
-                <div class="tab-content" id="myContent">
-                    <div class="tab-pane fade show active" id="home">
+            <div className="col-12 ms-auto text-center pt-5">
+                <div className="tab-content" id="myContent">
+                    <div className="tab-pane fade show active" id="home">
                         <div className="container zoom">
                           <div className="row">
                               {
@@ -150,7 +150,7 @@ const Menu=(props)=>{
                           </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="about">
+                    <div className="tab-pane fade" id="about">
                         <div className="container zoom">
                           <div className="row">
                               {
@@ -175,7 +175,7 @@ const Menu=(props)=>{
                           </div>
                         </div>
                     </div>
-                    <div class="tab-pane fade" id="education">
+                    <div className="tab-pane fade" id="education">
                         <div className="container zoom">
                           <div className="row">
                               {
@@ -220,7 +220,7 @@ const Menu=(props)=>{
                                {
                                     props.footeri.map(function(item){
                                         return(
-                                            <i class={item.imagei}></i>
+                                            <i className={item.imagei}></i>
                                         )
                                     })
                                }
@@ -239,8 +239,8 @@ const Menu=(props)=>{
                                         </div>
                                          <div>
                                             <p className="text-light">{fcon.footerpara}</p>
-                                            <span className="text-secondary"><i class="bi bi-calendar"></i>{fcon.footerdate}</span>
-                                            <span className="text-secondary ms-1"> <i class="bi bi-person-fill"></i>{fcon.footerspan}</span>
+                                            <span className="text-secondary"><i className="bi bi-calendar"></i>{fcon.footerdate}</span>
+                                            <span className="text-secondary ms-1"> <i className="bi bi-person-fill"></i>{fcon.footerspan}</span>
                                         </div>
                                         </div>
                                     )
@@ -272,7 +272,7 @@ const Menu=(props)=>{
                                     return(
                                         <div className="d-flex justify-content-start align-items-center gap-2">
                                             <div>
-                                                <p className="text-light"><i class={fli.footericon}></i></p>
+                                                <p className="text-light"><i className={fli.footericon}></i></p>
                                             </div>
                                             <div>
                                                 <p className="text-secondary">{fli.footerpara}</p>

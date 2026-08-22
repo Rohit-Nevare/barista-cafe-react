@@ -5,12 +5,12 @@ $(document).ready(function () {
     const callback = entries => {
         entries.forEach(entry => {
             const el = entry.target;
-            if (entry.isIntersecting && !el.classList.contains('is-visible')) {
+            if (entry.isIntersecting && !el.classNameList.contains('is-visible')) {
                 counterUp(el, {
                     duration: 2000,
                     delay: 16,
                 });
-                el.classList.add('is-visible');
+                el.classNameList.add('is-visible');
             }
         });
     };

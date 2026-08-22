@@ -35,7 +35,7 @@ const Contact=(props)=>
             <div className="row g-3 ">
 
                 <div className="col-12 col-lg-6">
-                    <img src="../public/images/Illustration/gallery-1 (1).jpg" alt="" className="h-100 w-100"/>
+                    <img src="/images/Illustration/gallery-1 (1).jpg" alt="" className="h-100 w-100"/>
                 </div>
 
                 <div className="col-12 col-lg-6">
@@ -48,10 +48,10 @@ const Contact=(props)=>
                         <input type="text" className="form-control "  placeholder="Last Name"/>
                         </div>
                         <div className="col-md-4 pt-4 text-light">
-                        <input type="date" class="form-control text-light " />
+                        <input type="date" className="form-control text-light " />
                         </div>
                         <div className="col-md-4 pt-4 ">
-                        <input type="time" class="form-control text-light "/>
+                        <input type="time" className="form-control text-light "/>
                         </div>
                         <div className="col-md-4 pt-4">
                         <input type="text" className="form-control text-light "  placeholder="Phone"/>
@@ -85,7 +85,7 @@ const Contact=(props)=>
                                {
                                     props.footeri.map(function(item){
                                         return(
-                                            <i class={item.imagei}></i>
+                                            <i className={item.imagei}></i>
                                         )
                                     })
                                }
@@ -104,8 +104,8 @@ const Contact=(props)=>
                                         </div>
                                          <div>
                                             <p className="text-light">{fcon.footerpara}</p>
-                                            <span className="text-secondary"><i class="bi bi-calendar"></i>{fcon.footerdate}</span>
-                                            <span className="text-secondary ms-1"> <i class="bi bi-person-fill"></i>{fcon.footerspan}</span>
+                                            <span className="text-secondary"><i className="bi bi-calendar"></i>{fcon.footerdate}</span>
+                                            <span className="text-secondary ms-1"> <i className="bi bi-person-fill"></i>{fcon.footerspan}</span>
                                         </div>
                                         </div>
                                     )
@@ -137,7 +137,7 @@ const Contact=(props)=>
                                     return(
                                         <div className="d-flex justify-content-start align-items-center gap-2">
                                             <div>
-                                                <p className="text-light"><i class={fli.footericon}></i></p>
+                                                <p className="text-light"><i className={fli.footericon}></i></p>
                                             </div>
                                             <div>
                                                 <p className="text-secondary">{fli.footerpara}</p>

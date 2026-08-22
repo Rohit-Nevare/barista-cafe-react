@@ -1,7 +1,7 @@
 .menuhero
 {
 height: 100vh;
-    background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5)),url('../public/images/Background/bg_3.jpg');
+    background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5)),url('/images/Background/bg_3.jpg');
       background-position: center;
 }
 .products span{
@@ -25,7 +25,7 @@ height: 100vh;
   color: #fff;
   padding: 10px 25px;
   font-weight: 500;
-  background-color: transparent;
+  backgroundColor: transparent;
   transition: all 0.3s ease;
 }
 
@@ -37,7 +37,7 @@ height: 100vh;
 
 /* Active tab styling */
 .nav-tabs .nav-link.active {
-  background-color: #c49b63;
+  backgroundColor: #c49b63;
   color: #000;
   border-color: #c49b63;
 }

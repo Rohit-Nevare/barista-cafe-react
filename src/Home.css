@@ -5,20 +5,20 @@
 .carousel1
 {
     height: 120vh;
-    background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url('../public/images/Background/bg_1.jpg');
+    background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url('/images/Background/bg_1.jpg');
     background-position: center;
 }
 .carousel2
 {
     height: 120vh;
-    background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url('../public/images/Background/bg_2.jpg');
+    background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url('/images/Background/bg_2.jpg');
       background-position: center;
 }
 
 .carousel3
 {
     height: 120vh;
-    background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5)),url('../public/images/Background/bg_3.jpg');
+    background-image:linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.5)),url('/images/Background/bg_3.jpg');
       background-position: center;
 }
 
@@ -41,14 +41,14 @@
     width: 15px;
     height: 15px;
     border-radius: 50%;
-    background-color: darkgray;
+    backgroundColor: darkgray;
     opacity: 0.5;
     transition: opacity 0.3s;
   }
 
   .carousel-indicators .active {
     opacity: 1;
-    background-color:white ; /* Change color as needed */
+    backgroundColor:white ; /* Change color as needed */
   }
 .carousel-caption-center .btn1
 {
@@ -80,7 +80,7 @@
 }
 .counters
 {
-    background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url('../public/images//Background/bg_2.jpg');
+    background-image: linear-gradient(to right, rgba(0,0,0,0.6), rgba(0,0,0,0.4)),url('/images//Background/bg_2.jpg');
     height: 100%;
     cursor: pointer;
     background-position: center;
@@ -104,10 +104,15 @@
 }
 .count:hover .bi-cup-hot{
 
-    background-color: #c49b63;
+    backgroundColor: #c49b63;
     color: #000;
 }
 .footer
 {
     background: #120f0f;
+}
+.home textarea {
+    width: 100% !important;
+    min-width: 100% !important;
+    height: 100px !important;
 }

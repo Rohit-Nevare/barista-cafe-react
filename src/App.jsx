@@ -23,7 +23,7 @@ const menuItems = [
 ];
 
 const aboutspan = "Discover";
-const aboutimg = "../public/images/Illustration/about.jpg";
+const aboutimg = "/images/Illustration/about.jpg";
 const abouth1 = "Our Story";
 const aboutpara =
   "On her way she met a copy. The copy warned the Little Blind Text, that where it came from it would have been rewritten a thousand times and everything that was left from its origin would be the word  and the Little Blind Text should turn around and return to its own, safe country. But nothing the copy said could convince her and so it didn’t take long until a few insidious Copy Writers ambushed her, made her drunk with Longe and Parole and dragged her into their agency, where they abused her for their.";
@@ -31,17 +31,17 @@ const aboutbtn = "Read More";
 
 const data = [
   {
-    photoName: "../public/images/Illustration/choices.png",
+    photoName: "/images/Illustration/choices.png",
     title: "Easy To Order",
     para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
   },
   {
-    photoName: "../public/images/Illustration/express-delivery.png",
+    photoName: "/images/Illustration/express-delivery.png",
     title: "Fastest Delivery",
     para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
   },
   {
-    photoName: "../public/images/Illustration/coffee-beans.png",
+    photoName: "/images/Illustration/coffee-beans.png",
     title: "Quality Coffee",
     para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
   },
@@ -65,44 +65,44 @@ const prohead="Our Best Products";
 
 const menuimage=[
     {
-        mimg:"../public/images/Illustration/menu-1.jpg",
+        mimg:"/images/Illustration/menu-1.jpg",
     },
     {
-        mimg:"../public/images/Illustration/menu-2.jpg",
+        mimg:"/images/Illustration/menu-2.jpg",
     },
     {
-        mimg:"../public/images/Illustration/menu-3.jpg",
+        mimg:"/images/Illustration/menu-3.jpg",
     },
     {
-        mimg:"../public/images/Illustration/menu-4.jpg"
+        mimg:"/images/Illustration/menu-4.jpg"
     }
 ]
 
 const products = [
   {
    
-    photoName: "../public/images/Illustration/menu-1.jpg",
+    photoName: "/images/Illustration/menu-1.jpg",
     title: "Coffee Capuccino",
     para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
     price:"$5.19",
     button:"Add to Cart",
   },
   {
-    photoName: "../public/images/Illustration/menu-2.jpg",
+    photoName: "/images/Illustration/menu-2.jpg",
     title: "Coffee Capuccino",
     para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
     price:"$5.19",
     button:"Add to Cart",
   },
   {
-    photoName: "../public/images/Illustration/menu-3.jpg",
+    photoName: "/images/Illustration/menu-3.jpg",
     title:"Coffee Capuccino",
     para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
     price:"$5.19",
     button:"Add to Cart",
   },
   {
-    photoName: "../public/images/Illustration/menu-4.jpg",
+    photoName: "/images/Illustration/menu-4.jpg",
     title:"Coffee Capuccino",
     para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
     price:"$5.19",
@@ -114,37 +114,37 @@ const products = [
 // image gallery
 const imagesgallery=[
     {
-        galleryimg:"../public/images/Illustration/gallery-1 (1).jpg",
+        galleryimg:"/images/Illustration/gallery-1 (1).jpg",
     },
     {
-        galleryimg:"../public/images/Illustration/gallery-2 (1).jpg",
+        galleryimg:"/images/Illustration/gallery-2 (1).jpg",
     },
     {
-        galleryimg:"../public/images/Illustration/gallery-3 (1).jpg",
+        galleryimg:"/images/Illustration/gallery-3 (1).jpg",
     },
     {
-        galleryimg:"../public/images/Illustration/gallery-4 (1).jpg",
+        galleryimg:"/images/Illustration/gallery-4 (1).jpg",
     },
 ]
 
 // Menu tabs
 const menuToast=[
     {
-        menuimg:"../public/images/Illustration/Avocado toast.jfif",
+        menuimg:"/images/Illustration/Avocado toast.jfif",
         title: "Greek Avocado Toast",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/French toast.jfif",
+        menuimg:"/images/Illustration/French toast.jfif",
         title: "French Toast",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/Garlic toast.jfif",
+        menuimg:"/images/Illustration/Garlic toast.jfif",
         title: "Cheese Garlic Toast",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
@@ -154,21 +154,21 @@ const menuToast=[
 ]
 const menuPizza=[
     {
-        menuimg:"../public/images/Illustration/Margherita.jfif",
+        menuimg:"/images/Illustration/Margherita.jfif",
         title: "Margherita Pizza",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/mushroom.jfif",
+        menuimg:"/images/Illustration/mushroom.jfif",
         title: "Mushroom Garlic Pizza",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/veggie.jfif",
+        menuimg:"/images/Illustration/veggie.jfif",
         title: "Viggie Pizza",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
@@ -179,21 +179,21 @@ const menuPizza=[
 
 const menuDessert=[
     {
-        menuimg:"../public/images/Illustration/Tiramisu Dessert.jfif",
+        menuimg:"/images/Illustration/Tiramisu Dessert.jfif",
         title: "Tiramisu Dessert",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/Chocolate Lava Cakes.jfif",
+        menuimg:"/images/Illustration/Chocolate Lava Cakes.jfif",
         title: "Choclate Lava Cake",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/Creamy Biscoff Cheesecake.jfif",
+        menuimg:"/images/Illustration/Creamy Biscoff Cheesecake.jfif",
         title: "Creamy Biscoff Cheesecake",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
@@ -204,42 +204,42 @@ const menuDessert=[
 
 const menumain=[
     {
-        menuimg:"../public/images/Illustration/dish-8.jpg",
+        menuimg:"/images/Illustration/dish-8.jpg",
         title: "Greek veggie salad",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/dish-7.jpg",
+        menuimg:"/images/Illustration/dish-7.jpg",
         title: "Greek Prawn salad",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/dish-6.jpg",
+        menuimg:"/images/Illustration/dish-6.jpg",
         title: "Grilled fish",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/dish-3 (1).jpg",
+        menuimg:"/images/Illustration/dish-3 (1).jpg",
         title: "Grilled fish sauce",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/dish-4.jpg",
+        menuimg:"/images/Illustration/dish-4.jpg",
         title: "greek chiken roast",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/dish-1 (1).jpg",
+        menuimg:"/images/Illustration/dish-1 (1).jpg",
         title: "chiken red sauce",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
@@ -250,42 +250,42 @@ const menumain=[
 
 const menudrink=[
     {
-        menuimg:"../public/images/Illustration/drink-1 (1).jpg",
+        menuimg:"/images/Illustration/drink-1 (1).jpg",
         title: "Lemonade Juice",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/drink-2 (1).jpg",
+        menuimg:"/images/Illustration/drink-2 (1).jpg",
         title: "Pineapple Juice",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/drink-3 (1).jpg",
+        menuimg:"/images/Illustration/drink-3 (1).jpg",
         title: "Soda Drinks",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/drink-5.jpg",
+        menuimg:"/images/Illustration/drink-5.jpg",
         title: "Pineapple Juice",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/drink-6.jpg",
+        menuimg:"/images/Illustration/drink-6.jpg",
         title: "Soda Drinks",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/drink-7.jpg",
+        menuimg:"/images/Illustration/drink-7.jpg",
         title: "Lemon mint Mojito",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
@@ -296,42 +296,42 @@ const menudrink=[
 
 const menudes=[
     {
-        menuimg:"../public/images/Illustration/dessert-1 (1).jpg",
+        menuimg:"/images/Illustration/dessert-1 (1).jpg",
         title: "Hot Cake Honey",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration//dessert-2 (1).jpg",
+        menuimg:"/images/Illustration//dessert-2 (1).jpg",
         title: "Hot pan Cake ",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/dessert-3 (1).jpg",
+        menuimg:"/images/Illustration/dessert-3 (1).jpg",
         title: "Fruit tart",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/dessert-4.jpg",
+        menuimg:"/images/Illustration/dessert-4.jpg",
         title: "Blueberry chessecake",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/dessert-5.jpg",
+        menuimg:"/images/Illustration/dessert-5.jpg",
         title: "Banana Dessert",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
         button:"Add to Cart",
     },
      {
-        menuimg:"../public/images/Illustration/dessert-6.jpg",
+        menuimg:"/images/Illustration/dessert-6.jpg",
         title: "Strawberry pancake",
         para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         price:"$2.19",
@@ -344,28 +344,28 @@ const menudes=[
 const menucof=[
      {
    
-    menuimg: "../public/images/Illustration/menu-1.jpg",
+    menuimg: "/images/Illustration/menu-1.jpg",
     title: "Coffee Capuccino",
     para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
     price:"$5.19",
     button:"Add to Cart",
   },
   {
-    menuimg: "../public/images/Illustration/menu-2.jpg",
+    menuimg: "/images/Illustration/menu-2.jpg",
     title: "Coffee Capuccino",
     para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
     price:"$5.19",
     button:"Add to Cart",
   },
   {
-    menuimg: "../public/images/Illustration/menu-3.jpg",
+    menuimg: "/images/Illustration/menu-3.jpg",
     title:"Coffee Capuccino",
     para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
     price:"$5.19",
     button:"Add to Cart",
   },
   {
-    menuimg: "../public/images/Illustration/menu-4.jpg",
+    menuimg: "/images/Illustration/menu-4.jpg",
     title:"Coffee Capuccino",
     para: "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
     price:"$5.19",
@@ -382,25 +382,25 @@ const testpara="Far far away, behind the word mountains, far from the countries 
 
 const testi=[
     {
-        testiimg:"../public/images/Illustration/men.jfif",
+        testiimg:"/images/Illustration/men.jfif",
         name:"Louise Kelly",
         comment:"Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         desgi:"Illustrator Design",
     },
      {
-        testiimg:"../public/images/Illustration/women.jfif",
+        testiimg:"/images/Illustration/women.jfif",
         name:"Louise Kelly",
         comment:"Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         desgi:"Illustrator Design",
     },
      {
-        testiimg:"../public/images/Illustration/men-2.avif",
+        testiimg:"/images/Illustration/men-2.avif",
         name:"Louise Kelly",
         comment:"Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         desgi:"Illustrator Design",
     },
      {
-        testiimg:"../public/images/Illustration/women-2.avif",
+        testiimg:"/images/Illustration/women-2.avif",
         name:"Louise Kelly",
         comment:"Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
         desgi:"Illustrator Design",
@@ -414,37 +414,37 @@ const blgcon="Far far away, behind the word mountains, far from the countries Vo
 
 const blog=[
     {
-        blogimg:"../public/images/Illustration/image_1.jpg",
+        blogimg:"/images/Illustration/image_1.jpg",
         title:"The Delicious Pizza",
         para:"A small river named Duden flows by their place and supplies it with the necessary regelialia.",
         date:"Sept 10,2018",
     },
      {
-        blogimg:"../public/images/Illustration/image_2.jpg",
+        blogimg:"/images/Illustration/image_2.jpg",
         title:"The Delicious Pizza",
         para:"A small river named Duden flows by their place and supplies it with the necessary regelialia.",
         date:"Sept 10,2018",
     },
      {
-        blogimg:"../public/images/Illustration/image_3.jpg",
+        blogimg:"/images/Illustration/image_3.jpg",
         title:"The Delicious Pizza",
         para:"A small river named Duden flows by their place and supplies it with the necessary regelialia.",
         date:"Sept 10,2018",
     },
      {
-        blogimg:"../public/images/Illustration/image_4.jpg",
+        blogimg:"/images/Illustration/image_4.jpg",
         title:"The Delicious Pizza",
         para:"A small river named Duden flows by their place and supplies it with the necessary regelialia.",
         date:"Sept 10,2018",
     },
      {
-        blogimg:"../public/images/Illustration/image_5.jpg",
+        blogimg:"/images/Illustration/image_5.jpg",
         title:"The Delicious Pizza",
         para:"A small river named Duden flows by their place and supplies it with the necessary regelialia.",
         date:"Sept 10,2018",
     },
      {
-        blogimg:"../public/images/Illustration/image_6.jpg",
+        blogimg:"/images/Illustration/image_6.jpg",
         title:"The Delicious Pizza",
         para:"A small river named Duden flows by their place and supplies it with the necessary regelialia.",
         date:"Sept 10,2018",
@@ -481,13 +481,13 @@ const footerblog="Recent Blog";
 
 const footerimgcon=[
     {
-        footerimg:"../public/images/Illustration/image_1.jpg",
+        footerimg:"/images/Illustration/image_1.jpg",
         footerpara:"Even the all-powerful Pointing has no control about",
         footerdate:"Sept 10,2018",
         footerspan:"Admin",
     },
     {
-        footerimg:"../public/images/Illustration/image_2.jpg",
+        footerimg:"/images/Illustration/image_2.jpg",
         footerpara:"Even the all-powerful Pointing has no control about",
         footerdate:"Sept 10,2018",
         footerspan:"Admin",

@@ -17,7 +17,7 @@ const Footer=(props)=>{
                                {
                                     props.footeri.map(function(item){
                                         return(
-                                            <i class={item.imagei}></i>
+                                            <i className={item.imagei}></i>
                                         )
                                     })
                                }
@@ -36,8 +36,8 @@ const Footer=(props)=>{
                                         </div>
                                          <div>
                                             <p className="text-light">{fcon.footerpara}</p>
-                                            <span className="text-secondary"><i class="bi bi-calendar"></i>{fcon.footerdate}</span>
-                                            <span className="text-secondary ms-1"> <i class="bi bi-person-fill"></i>{fcon.footerspan}</span>
+                                            <span className="text-secondary"><i className="bi bi-calendar"></i>{fcon.footerdate}</span>
+                                            <span className="text-secondary ms-1"> <i className="bi bi-person-fill"></i>{fcon.footerspan}</span>
                                         </div>
                                         </div>
                                     )
@@ -69,7 +69,7 @@ const Footer=(props)=>{
                                     return(
                                         <div className="d-flex justify-content-start align-items-center gap-2">
                                             <div>
-                                                <p className="text-light"><i class={fli.footericon}></i></p>
+                                                <p className="text-light"><i className={fli.footericon}></i></p>
                                             </div>
                                             <div>
                                                 <p className="text-secondary">{fli.footerpara}</p>
