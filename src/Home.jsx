@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client"
+import { Link } from "react-router-dom";
 import "./Home.css"
 import "./script"
 import styled from "styled-components";
@@ -34,8 +35,8 @@ const Home = (props) => {
                             <span>Welcome</span>
                             <h2 className="display-5 fw-bold text-uppercase">The Best Coffee Testing Experience</h2>
                             <p >Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos adipisci ducimus mollitia in iure enim magnam? Architecto a harum cumque.</p>
-                            <button type="button" className="btn1 ">Order Now</button>
-                            <button type="button" className="btn2  ms-2 mt-3 mt-md-0">View Menu</button>
+                            <Link to="/shop" className="btn1 btn-warning me-3 text-decoration-none">Order Now</Link>
+                            <Link to="/menu" className="btn1 btn-outline text-decoration-none">View Menu</Link>
                         </div>
 
                     </div>
